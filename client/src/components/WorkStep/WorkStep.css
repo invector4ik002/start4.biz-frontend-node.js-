@@ -1,0 +1,93 @@
+/*.container-work-step {
+   width: 1440px;
+   width: 100%;
+   margin: 0 auto;
+}*/
+
+.work-step {
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 71px 130px 56px 130px;
+   background: #FFF;
+}
+
+.work-step__content {
+   max-width: 320px;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.work-step__content-right {
+   margin:54px 180px 0 0;
+}
+
+.work-step__content-left {
+   margin:54px 0 0 180px;
+}
+
+.work-step__img {
+   width: 72px;
+   height: 72px;
+}
+.work-step__img-applications {
+   background-image: url(./../../img/icon-mac-blue.png);
+   background-repeat: no-repeat;
+}
+.work-step__img-sentence {
+   background-image: url(./../../img/icon-search-blue.png);
+   background-repeat: no-repeat;
+}
+.work-step__img-terms {
+   background-image: url(./../../img/icon-select-blue.png);
+   background-repeat: no-repeat;
+}
+.work-step__img-documents {
+   background-image: url(./../../img/icon-document-blue.png);
+   background-repeat: no-repeat;
+}
+.work-step__img-deal {
+   background-image: url(./../../img/icon-deal-blue.png);
+   background-repeat: no-repeat;
+}
+
+.work-step__span--l {
+   font-family: 'roboto-light', sans-serif;
+   font-style: normal;
+   font-weight: 200;
+   font-size: 24px;
+   line-height: 25px;
+   margin: 23px 0 10px 0;
+   letter-spacing: 1px;
+}
+
+.work-step__text {
+   font-family: 'roboto-light', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 22px;
+   letter-spacing: 1px;
+   margin: 5px 0 0 0;
+}
+
+/*.work-step__button {
+   !*margin-top: 64px;*!
+   !*margin-left: 466px;*!
+   margin: 64px auto 0 auto;
+   border: none;
+   border-radius: 4px;
+   background: #445B94;
+   outline: none;
+   width: 248px;
+   padding: 18px 0 18px 0;
+
+   font-family: 'roboto-light', sans-serif;
+   font-style: normal;
+   font-size: 12px;
+   line-height: 16px;
+   color: #FFFFFF;
+}*/

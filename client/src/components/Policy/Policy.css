@@ -1,0 +1,70 @@
+.policy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #333333;
+}
+.policy-background{
+    /* background-image: url("../../img/policy_bgnd.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.policy-field{
+    width: 80%;
+    margin: 100px auto 0px;
+    padding: 50px;
+    z-index: 2;
+    background-color: #EFF3F5;
+}
+.policy-header{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+}
+.policy-list-item{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    padding: 10px 0px;
+}
+.policy-text{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.policy-list-item__secondlevel{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    padding: 10px 0px;
+}
+.policy-contacts{
+    z-index: 2;
+    background-color: #EFF3F5;
+    width: 100%;
+    padding: 5%;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 767px){
+    .content-main{
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .policy-list{
+        padding: 0;
+    }
+}

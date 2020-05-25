@@ -1,0 +1,11 @@
+.uc {
+    padding: 250px 0;
+}
+
+.uc-p {
+    background-color: #ccc;
+    font-family: 'roboto-regular';
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}

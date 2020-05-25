@@ -1,0 +1,188 @@
+.bread-crump {
+    height: 18px;
+    width: 100%;
+    border: 1px solid grey;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.organization-information__title {
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.organization-information-container {
+    position: relative;
+    /* padding: 50px 110px; */
+    padding: 50px 0;
+    background: #fff;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.41);
+    border-radius: 4px;
+}
+
+.organization-information-container__close {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 19px;
+    top: 19px;
+    background-image: url(../../img/close-2.png);
+    cursor: pointer;
+}
+
+.organization-information-container__close:hover {
+    filter: drop-shadow(1px 1px 1px);
+}
+
+.organization-information-container__close:active {
+    transform: scale(1.1);
+}
+
+.organization-information-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.organization-information-form__block-container {
+    padding: 0 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.organization-information-form__inputs-group {
+    margin-right: 70px;
+}
+
+.organization-information-form__input-group {
+    width: 260px;
+    margin-bottom: 20px;
+}
+
+.organization-information-form__input-wrapper {
+    width: 100%;
+    position: relative
+}
+
+.organization-information-form__input-wrapper:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 8px;
+    bottom: 9px;
+    background-image: url(../../img/input-pencil.png); 
+    background-repeat: no-repeat;
+}
+
+.organization-information-form__input-label {
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+.organization-information-form__input {
+    width: 100%;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #898989;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 3px;
+}
+
+.organization-information-form__input-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../img/input-pencil.png); 
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.organization-information-form__description {
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    margin-top: 40px;
+}
+.organization-information-form__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 110px 0 110px;
+}
+
+.organization-information-form__button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 248px;
+    height: 56px;
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.organization-information-form__button--save {
+    background: #5A85D4;
+    color: #fff;
+}
+
+.organization-information-form__button--cancel {
+    background-color: #fff;
+    border: 1px solid #5A85D4;
+    box-sizing: border-box;
+    color: #5A85D4;
+}
+
+.organization-information__decor-line {
+    border-top: 1px solid #E3E3E3; 
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.organization-information__dop-title {
+    text-align: center;
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 40px;
+}

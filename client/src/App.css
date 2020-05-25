@@ -1,0 +1,14 @@
+/*body {}*/
+
+#root {
+  background-color: #EFF3F5;
+}
+
+.container-fluid {
+  position: relative;
+  max-width: 1440px;
+}
+
+.main-header > .container-fluid,
+.content-main > .container-fluid
+{ padding: 0; }

@@ -1,0 +1,237 @@
+.about-ask-question-button {
+    margin: 40px 360px 110px;
+    width: 146px;
+}
+
+.be-partner-button-fin {
+    width: 248px;
+    height: 56px;
+}
+
+.page-button-fin {  
+    padding: 18px 22px;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    background: #5A85D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 77px auto 0px;
+    width: 248px;
+    height: 56px;
+    text-align: center;
+}
+
+.page-button:hover {
+    background: #2B3349;
+}
+
+.page-button-text {
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+.about-ask-question-button-text {
+    font-family: 'roboto-medium', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+.content-main-fo{
+    margin-top: 100px;
+    padding-bottom: 90px;
+    background-color: #EFF3F5;
+}
+.content-2finorg-fo {
+    margin-top: 100px;
+    padding: 70px 80px 0px;
+    background-color:#EFF3F5;
+}
+
+.finorg-info-block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 137px;
+    flex-wrap: wrap;
+}
+.finorg-img{
+    flex-basis: 40%;
+}
+.finorg-image{
+    padding: 5%;
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
+}
+.finorg-text{
+    flex-basis: 60%;
+    padding-left: 70px;
+}
+.finorg-decription{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.why-we-description {
+    justify-content: space-between;
+    padding: 0 170px 0 220px;
+}
+
+.to-finorg-header {
+    margin: 36px 0 40px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 48px;
+    color: #333333;
+    text-align: left;
+}
+
+.why-we-header {
+    text-align: center;
+}
+
+.to-business-text {
+    margin-bottom: 30px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    text-align: justify;
+}
+
+.to-business-list {
+    list-style: none;
+    /* margin: 0 0 0 100px; */
+    margin-top: 50px;
+}
+
+.to-business-item {
+    margin-bottom: 10px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    position: relative;
+}
+
+.to-business-item:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    background-image: url(./../../img/list-marker.png);
+    background-size: contain;
+}
+.finorg-left-block {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.finorg-right-block {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.finorg-info-block-image {
+    margin-bottom: 40px;
+    display: block;
+    width: 335px;
+}
+
+.be-partner-button-text {
+    font-family: 'roboto-regular', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+ .finorg-be-partner-button {
+     flex-basis: 100%;
+ } 
+
+.horizontal {
+    width: 100%;
+    height: 1px;
+    background: #000000;
+}
+
+.to-finorg-why-we{
+    padding-top: 63px;
+}
+
+.why-we-list-finorg {
+    margin-right: 160px;
+}
+
+.why-we-item-finorg {
+    width: 450px;
+}
+.why-we-item {
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin: 10px 0px 104px 0px;
+    max-width: 405px;
+}
+.why-we-article{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.why-we-article-header {
+    line-height: 21px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.why-we-article-text {
+    margin: 0;
+}
+.why-we-article-img{
+    width: 72px;
+    height: 72px;
+    margin-right: 17px;
+}
+@media screen and (max-width: 767px) {
+    .finorg-img{
+        flex-basis: 100%;
+    }
+    .finorg-text{
+        flex-basis: 100%;
+        padding: 0;
+    }
+    .finorg-left-block {
+        flex-basis: 100%;
+    }
+    .finorg-right-block {
+        flex-basis: 100%;
+    }
+    .to-business-list {
+        margin-left: 0px;
+    }
+    .why-we-item {
+        flex-basis: 100%;
+    }
+    .why-we-article{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why-we-article-header{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .why-we-article-img{
+        margin: 0 auto;
+    }
+}

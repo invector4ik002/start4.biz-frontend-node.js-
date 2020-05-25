@@ -1,0 +1,13 @@
+.partner-card {
+    width: 373px;
+    height: 155px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(20, 20, 20, 0.1);
+    border-radius: 2px;
+    margin: 34px 10px 34px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

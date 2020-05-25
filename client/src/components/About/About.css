@@ -1,0 +1,254 @@
+/* .about {} */
+
+.about-header {
+    /* margin: 0 0 0 356px; */
+    padding: 70px 0 50px;
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.anchor:before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin: -120px 0 0;
+}
+
+.about-article {
+    margin: 0 80px 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.about-article-image {
+    width: 216px;
+    display: block;
+    margin-top: 77px;
+    /* border: 1px solid #2B3349; */
+}
+
+.about-article-text-block {
+    margin-left: 60px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.about-article-text {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: 'roboto-light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.about-article-text:last-child {
+    margin-bottom: 0;
+}
+
+.about-article-url {
+    text-decoration: none;
+    color: #333333;
+}
+
+.about-article-url:hover {
+    text-decoration: underline;
+}
+
+.about-ask-question-button {
+    margin: 40px 360px 77px;
+    width: 248px;
+    height: 56px;
+}
+
+.be-partner-button {
+    width: 146px;
+}
+
+.page-button {  
+    padding: 18px 22px;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    background: #5A85D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page-button:hover {
+    background: #2E57A4;
+}
+
+.page-button:active {
+    background:#5A85D4;
+    box-shadow: inset 4px 4px 10px rgba(3, 28, 162, 0.25);
+}
+
+.page-button-text {
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+.about-ask-question-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.about-ask-question-button-text {
+    font-family: 'roboto-medium', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.h-line {
+    margin: 0 80px;
+    width: calc(100% - 160px);
+    height: 1px;
+    background: #000000;
+}
+
+.contacts-article {
+    padding: 120px 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts-map {
+    box-shadow: 8px 10px 8px rgba(0, 0, 0, 0.25);
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.contacts-text {
+    margin-left: 80px;
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.contacts-text-header {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'roboto-light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.contacts-text-contact {
+    margin-bottom: 20px;
+    font-family: 'roboto-light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #333333;
+    text-align: justify;
+}
+
+.contacts-text-address {
+    margin: 40px 0 10px;
+    font-family: 'roboto-light', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.contacts-text-email {
+    text-decoration: none;
+    color: #333333;
+}
+
+.contacts-text-email:hover {
+    text-decoration: underline;
+}
+
+.contacts-text-phone {
+    text-decoration: none;
+    color: #333333;
+}
+
+.contacts-text-phone:hover {
+    text-decoration: underline;
+}
+
+.contacts-text-map-see {
+    font-family: 'roboto-light', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.contacts-text-map-see:hover {
+    text-decoration: underline;
+}
+
+.contacts-text-map-see:active {
+    text-decoration: underline;
+}
+
+.contacts-text-map-see:visited {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .about-article {
+        flex-direction: column;
+        margin: 0 20px 0 20px;
+    }
+    .about-header {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .about-article-image {
+        margin: 0 auto 20px;
+    }
+    .about-article-text-block {
+        margin-left: 20px;
+    }
+    .about-article-text-center{
+        text-align: center;
+    }
+    .about-ask-question-button {
+        margin: 40px auto 110px;
+    }
+    .contacts-map {
+        flex-basis: 100%;
+    }
+    .contacts-text {
+        margin-left: 20px;
+        margin-top: 20px;
+        flex-basis: 100%;
+    }
+    .contacts-text-header {
+        text-align: center;
+    }
+    
+}

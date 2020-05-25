@@ -1,0 +1,108 @@
+.partners-block {
+    background: #fff;
+    min-height: 500px;
+}
+
+.partners-block-inner {
+    padding: 0 80px 65px 80px;
+}
+
+.partners-block__title {
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.partners-block__partner-cards {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+
+}
+
+/*
+.button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.partners-block__button {
+    margin: 0 auto;
+    background: #5A85D4;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 248px;
+    height: 56px;
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 14px;
+    box-shadow:0px 2px 4px 2px rgba(184,183,183,0.79);
+    -webkit-box-shadow:0px 2px 4px 2px rgba(184,183,183,0.79);
+    -moz-box-shadow:0px 2px 4px 2px rgba(184,183,183,0.79);
+}
+*/
+
+.block2__show-all {
+    width: 100%;
+}
+
+.link--partner-cards {
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #2F80ED;
+    float: right;
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 248px;
+    height: 56px;
+    margin: 64px auto 0 auto;
+    background: #5A85D4;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.home-horizontal {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 100px;
+    background: #C4C4C4;
+}

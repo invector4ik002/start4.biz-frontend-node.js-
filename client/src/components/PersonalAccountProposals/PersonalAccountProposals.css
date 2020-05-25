@@ -1,0 +1,11 @@
+.pa-proposals__title {
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 40px;
+}

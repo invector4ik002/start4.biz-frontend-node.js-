@@ -1,0 +1,35 @@
+.pa-proposal {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25), inset 3px 3px 5px rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    margin-bottom: 25px;
+    padding: 28px 40px 28px 25px;
+}
+
+.pa-proposal__property {
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #898989;
+}
+
+.pa-proposal__property-value {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.pa-proposal__arrow {
+    background-image: url(../../img/Group45.png);
+    width: 9.21px;
+    height: 17px;
+    cursor: pointer;
+}

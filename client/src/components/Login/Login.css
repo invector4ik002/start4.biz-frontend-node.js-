@@ -1,0 +1,203 @@
+.login {
+    margin-top: 100px;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 84px 80px;
+    position: relative;
+    background: #EFF3F5;
+    box-shadow: 0px 4px 30px rgba(239, 243, 245, 0.25);
+}
+
+.login__conteiner {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 40px 53px;
+    box-sizing: border-box;
+    box-shadow: 0px -3px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 269px;
+}
+
+.login__router {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.login__close {
+    position: absolute;
+    top: 19.25px;
+    right: 19.25px;
+    width: 15.5px;
+    height: 15.5px;
+    background-image: url(./../../img/closeBtn.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login__router .login__routerLink:not(:last-child)::after {
+    content: "";
+    margin-left: 12px;
+    margin-right: 12px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-image: url(./../../img/arrowNext.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login__main {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.login__head {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+
+
+.login__input {
+    height: 30px;
+    width: 290px;
+    background: #FFFFFF;
+    border: 1px solid #898989;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-image: url(./../../img/inputIcon.svg);
+    background-position: top 8px right 9px;
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    padding: 7px 11px;
+}
+
+.login__recoverPass {
+    display: inline-block;
+    width: 290px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+}
+
+.login__btn {
+    width: 248px;
+    height: 56px;
+    background: #5A85D4;
+    box-shadow: 0px 4px 10px rgba(90, 133, 212, 0.25);
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.login__reg {
+    width: 290px;
+    height: 300px;
+    margin-left: 180px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.login__regHead {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.login__regText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.login__enter {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.login__item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.login__itemFirst {
+    margin-top: 27px;
+}
+.login__itemLast {
+    margin-top: 60px;
+}
+
+.login__label {
+    display: inline-block;
+    width: 290px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin-bottom: 4px;
+}

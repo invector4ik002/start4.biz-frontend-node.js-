@@ -1,0 +1,120 @@
+.main-footer {
+    /*width: calc(100% - 160px);*/
+    padding: 20px 80px;
+    background: #EFF3F5;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-left-list {
+    padding: 0 40px 0 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-list:last-child {
+    padding-right: 0;
+}
+
+.footer-left-list-item {
+    margin-bottom: 8px;
+}
+
+.footer-left-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-left-list-link {
+    text-decoration: none;
+}
+
+.footer-left-list-link-text {
+    font-family: 'roboto-light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.footer-info-left-link:hover {
+    text-decoration: underline;
+}
+
+/* .footer-info-left-link:active {} */
+
+/* .footer-info-left-link:visited {} */
+
+.footer-right {
+    display: flex;
+    justify-content: right;
+}
+
+.footer-social-links-block {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.footer-social-link {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.footer-social-link:last-child {
+    margin-right: 0;
+}
+
+.footer-social-link-image {
+    fill: #445B94;
+}
+
+.footer-social-link:hover .footer-social-link-image {
+    fill: #13295F;
+}
+
+.footer-social-link:active .footer-social-link-image {
+    fill: #D9D9D6;
+}
+
+.footer-contacts {
+    padding-left: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'roboto-light', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.footer-email {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-email-text {
+    color: #000000;
+}
+
+.footer-phone {
+    display: block;
+}
+
+.footer-phone-text {
+    color: #000000;
+}
+
+.footer-email:hover,
+.footer-phone:hover {
+    text-decoration: none;
+}
