@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { useHttp } from '../../hooks/auth.hook';
 
 import './index.css';
 // import './QuestionForm.css';
 
 export const QuestionForm = ({ buttonHandlerHiden }) => {
+
+   const { request } = useHttp();
 
    const [form, setForm] = useState({// локальное состояние формы
       name_org: '',
@@ -15,6 +18,17 @@ export const QuestionForm = ({ buttonHandlerHiden }) => {
       contacts: '',
       email: '',
    });
+   
+   const submitHandler = async (event) => { 
+      
+      try {
+         event.preventDefault();
+         const data = await request('/api/auth/register', 'POST', { ...form });
+         console.log('QuestiuoForm: Data >',data)
+         // message(data.message)
+      } catch (err) {}
+      
+   };
    /**
  * Прослушка событий по имени input получение значения с input
  * @param event событие заполнения input
@@ -146,7 +160,7 @@ export const QuestionForm = ({ buttonHandlerHiden }) => {
 
             <button 
                className="question__btn-send"
-               // onClick={submitHandler}
+               onClick={submitHandler}
             >
                Отправить данные
             </button>
