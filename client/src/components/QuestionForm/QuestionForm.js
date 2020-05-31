@@ -22,9 +22,9 @@ export const QuestionForm = ({ buttonHandlerHiden }) => {
    const submitHandler = async (event) => { 
       
       try {
-         event.preventDefault();
+         // event.preventDefault();
          const data = await request('/api/auth/register', 'POST', { ...form });
-         console.log('QuestiuoForm: Data >',data)
+         console.log('QuestiuoForm: Data >',data);
          // message(data.message)
       } catch (err) {}
       
